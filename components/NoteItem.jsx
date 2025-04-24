@@ -9,8 +9,6 @@ const NoteItem = ({ note }) => {
   );
 };
 
-export default NoteItem;
-
 const styles = StyleSheet.create({
   noteItem: {
     flexDirection: "row",
@@ -25,3 +23,5 @@ const styles = StyleSheet.create({
     fontSize: 16,
   },
 });
+
+export default NoteItem;
